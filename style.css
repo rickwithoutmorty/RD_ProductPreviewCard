@@ -1,3 +1,15 @@
+/* CSS RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    --color-cream: rgb(242, 234, 226);
+}
+
 body {
-    background-color: red;
+    background: var(--color-cream);
 }
