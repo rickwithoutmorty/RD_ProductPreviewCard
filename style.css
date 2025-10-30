@@ -44,6 +44,11 @@ figcaption {
     padding: 2rem;
 }
 
+figcaption > * {
+    padding: 0.5rem 0;
+}
+
+/* FONT STYLING */
 .product-tag,
 .product-description,
 button  {
@@ -75,6 +80,16 @@ button  {
     align-items: center;
 }
 
-figcaption > * {
-    padding: 0.6rem 0;
+.product-tag {
+    line-height: 120%;
+    letter-spacing: 5px;
+}
+
+.product-description {
+    line-height: 160%;
+}
+
+.product-price-nodiscount {
+    text-decoration: line-through;
+    padding-left: 1rem;
 }
