@@ -11,6 +11,7 @@
     --color-white: rgb(255, 255, 255);
     --color-grey: rgb(108, 114, 137);
     --color-green-500: rgb(61, 129, 104);
+    --color-green-700: rgb(26, 64, 50);
     --font-montserrat: "Montserrat", "sans-serif";
     --font-fraunces: "Fraunces", "serif";
 }
@@ -110,6 +111,11 @@ button {
     background: var(--color-green-500);
     border: 1px solid var(--color-green-500);
     border-radius: 0.5rem;
+}
+
+button:hover {
+    background: var(--color-green-700);
+    cursor: pointer;
 }
 
 .btn-calltoaction {
