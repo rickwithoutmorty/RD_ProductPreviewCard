@@ -37,5 +37,7 @@ article figure img {
 
 /* PRODUCT TEXT - FIGCAPTION */
 figcaption {
+    display: flex;
+    flex-direction: column ;
     padding: 2rem;
 }
