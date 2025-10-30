@@ -99,3 +99,22 @@ button  {
     color: var(--color-green-500);
     font-weight: 700;
 }
+
+/* BUTTON ADD TO CART */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 0;
+    color: var(--color-white);
+    background: var(--color-green-500);
+    border: 1px solid var(--color-green-500);
+    border-radius: 0.5rem;
+}
+
+.btn-calltoaction {
+    font-size: 0.75rem;
+    line-height: 110%;
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
