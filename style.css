@@ -28,8 +28,14 @@ article {
     background: var(--color-white);
 }
 
+/* IMAGE MOBILE */
 article figure img {
     max-width: 22rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+/* PRODUCT TEXT - FIGCAPTION */
+figcaption {
+    padding: 2rem;
 }
