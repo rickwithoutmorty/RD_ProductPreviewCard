@@ -9,6 +9,8 @@
 :root {
     --color-cream: rgb(242, 234, 226);
     --color-white: rgb(255, 255, 255);
+    --color-grey: rgb(108, 114, 137);
+    --color-green-500: rgb(61, 129, 104);
     --font-montserrat: "Montserrat", "sans-serif";
     --font-fraunces: "Fraunces", "serif";
 }
@@ -73,6 +75,8 @@ button  {
 
 .product-description {
     font-size: 0.9rem;
+    line-height: 160%;
+    color: var(--color-grey);
 }
 
 .product-pricing-area {
@@ -85,11 +89,13 @@ button  {
     letter-spacing: 5px;
 }
 
-.product-description {
-    line-height: 160%;
-}
-
 .product-price-nodiscount {
     text-decoration: line-through;
     padding-left: 1rem;
+    color: var(--color-grey);
+}
+
+.product-price-discount {
+    color: var(--color-green-500);
+    font-weight: 700;
 }
