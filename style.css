@@ -9,6 +9,8 @@
 :root {
     --color-cream: rgb(242, 234, 226);
     --color-white: rgb(255, 255, 255);
+    --font-montserrat: "Montserrat", "sans-serif";
+    --font-fraunces: "Fraunces", "serif";
 }
 
 body {
@@ -40,4 +42,35 @@ figcaption {
     display: flex;
     flex-direction: column ;
     padding: 2rem;
+}
+
+.product-tag,
+.product-description,
+button  {
+    font-family: var(--font-montserrat);
+}
+
+.product-heading,
+.product-price-discount,
+.product-price-nodiscount {
+    font-family: var(--font-fraunces);
+}
+
+.product-tag,
+.product-price-nodiscount {
+    font-size: 0.75rem;
+}
+
+.product-heading,
+.product-price-discount {
+    font-size: 2rem;
+}
+
+.product-description {
+    font-size: 0.9rem;
+}
+
+.product-pricing-area {
+    display: flex;
+    align-items: center;
 }
