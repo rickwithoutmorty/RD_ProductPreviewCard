@@ -34,10 +34,14 @@ article {
 }
 
 /* IMAGE MOBILE */
-article figure img {
+.product-img-mobile {
     max-width: 22rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+.product-img-desktop {
+    display: none;
 }
 
 /* PRODUCT TEXT - FIGCAPTION */
@@ -123,4 +127,23 @@ button:hover {
     line-height: 110%;
     font-weight: 500;
     padding-left: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 38rem) {
+    .product-img-mobile {
+        display: none;
+    }
+
+    .product-img-desktop {
+        display: block;
+        max-width: 20rem;
+        border-bottom-left-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    
+    article {
+        flex-direction: row;
+        max-width: 37rem;
+    }
 }
