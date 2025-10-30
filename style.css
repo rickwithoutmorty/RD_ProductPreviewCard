@@ -8,8 +8,28 @@
 /* VARIABLES */
 :root {
     --color-cream: rgb(242, 234, 226);
+    --color-white: rgb(255, 255, 255);
 }
 
 body {
     background: var(--color-cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+
+/* PRODUCT CARD */
+article {
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    border-radius: 1rem;
+    background: var(--color-white);
+}
+
+article figure img {
+    max-width: 22rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
